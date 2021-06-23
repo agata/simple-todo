@@ -100,7 +100,7 @@ export default function App() {
   useEffect(() => {
     getData().then((data) => {
       if (data) {
-        setItems(data.items);
+        // setItems(data.items);
       }
     })
   }, []);
